@@ -38,6 +38,7 @@ export default function NewItem(props) {
                         id="price"
                         value={_form.price || ''}
                         name="price"
+                        type="number"
                         onChange={onChange}
                     />
                 </div>
@@ -47,6 +48,7 @@ export default function NewItem(props) {
                         id="qty"
                         value={_form.qty || ''}
                         name="qty"
+                        type="number"
                         onChange={onChange}
                     />
                 </div>

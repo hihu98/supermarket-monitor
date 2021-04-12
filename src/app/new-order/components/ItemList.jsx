@@ -5,7 +5,6 @@ export default function ItemList(props) {
     const [_editing, _setEditing] = useState(null)
 
     const _setItem = (opts) => {
-        console.log(opts)
         props.updateItem(_editing, opts)
         _setEditing(null)
     }
