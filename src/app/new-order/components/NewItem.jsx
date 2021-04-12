@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 export default function NewItem(props) {
-    const [_form, _setForm] = useState(props.current || {})
+    const [_form, _setForm] = useState(props.current || { qty: 1 })
 
     const _onSubmit = (e) => {
         e.preventDefault()
