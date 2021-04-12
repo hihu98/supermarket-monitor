@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+body {
+  background: #2f3136;
+  min-height: 100vh;
+  color: #f0f0f0;
+  font-family: "Roboto", sans-serif;
+}
+
+button,
+input {
+  outline: none;
+  border: 0;
+}
+
+.app-button {
+  color: #fff;
+  background-color: #7289da;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+}
+
+.app-button-danger {
+  background-color: red;
+}
+
+.app-container {
+  padding: 1rem 0;
+}
+
+.app-input-group {
+  padding: 0.5rem 0;
+}
+.app-input-group label {
+  margin-bottom: 0.25rem;
+}
+.app-input-group input {
+  background: #36393f;
+  color: #fff;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
